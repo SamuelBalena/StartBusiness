@@ -1,0 +1,59 @@
+.slide {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-width: 175px;
+    height: 300px;
+    background-color: #FFFAFA;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-position {
+    display: flex;
+    list-style: none;
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+}
+
+.slide li img {
+    width: 100px;
+    height: 100px;
+}
+
+.carousel {
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.title-card {
+    max-width: 400px;
+    color: #363636;
+    font-weight: bold;
+}
+
+.number-card {
+    font-weight: bold;
+    color: #C53F3F;
+}
+
+.title-carousel::after {
+    content: '';
+	display: block;
+	width: 100px;
+	height: 3px;
+	background: #C53F3F;
+	margin: 20px auto;
+}

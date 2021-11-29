@@ -1,0 +1,101 @@
+/* Estilos Gerais */
+
+* {
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	display: flex;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+/* Cores das Letras*/
+
+h1 {
+	font-size: 38px;
+	color: #363636;
+}
+
+h2 {
+	font-size: 32px;
+	color: #4F4F4F;
+}
+
+h3 {
+	font-size: 24px;
+	color: #696969;
+}
+
+h4 {
+	font-size: 18px;
+	color: #696969;
+}
+
+p {
+	font-size: 14px;
+	color: #828282;
+}
+
+.btn {
+	display: block;
+    color: #fff;
+    background-color: #C53F3F;
+    text-decoration: none;
+	text-align: center;
+	font-size: 1.125em;
+	font-weight: bold;
+	display: block;
+	width: 160px;
+	padding: 10px 0;
+	margin: 40px auto 0 0;
+}
+
+/* Titulos */
+
+.title {
+    margin: 0 auto;
+    text-align: center;
+	max-width: 400px;
+}
+
+.title h4 {
+    color: #C53F3F;
+}
+
+.red-title {
+	color: #C53F3F;
+}
+
+/* Animações */
+
+.js .js-scroll {
+    opacity: 0;
+    transform: translate3d(-30px, 0, 0);
+    transition: .3s;
+}
+  
+.js .js-scroll.ativo {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+.menu-nav li a:hover {
+	font-size: 17px;
+	color: #C53F3F;
+}
+
+.btn:hover {
+	border: 2px solid #C53F3F;
+	background-color: white;
+	color: #C53F3F;
+}
+
+.btn-form:hover {
+	border: 2px solid #C53F3F;
+	background-color: white;
+	color: #C53F3F;
+}

@@ -1,0 +1,21 @@
+.about {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.about img {
+    display: block;
+    width: 500px;
+    height: 500px;
+}
+
+.text-box {
+	max-width: 400px;
+	line-height: 1.5em;
+}
+
+.text-box p {
+    padding-top: 25px;
+}
